@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExchangeRateTable test render correctly 1`] = `
+<table
+  class="MuiTable-root makeStyles-table-1"
+>
+  <thead
+    class="MuiTableHead-root"
+  >
+    <tr
+      class="MuiTableRow-root MuiTableRow-head"
+    >
+      <th
+        class="MuiTableCell-root MuiTableCell-head"
+        scope="col"
+      >
+        Currency
+      </th>
+      <th
+        class="MuiTableCell-root MuiTableCell-head"
+        scope="col"
+      >
+        Value
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    class="MuiTableBody-root"
+  >
+    <tr
+      class="MuiTableRow-root"
+    >
+      <td
+        class="MuiTableCell-root MuiTableCell-body"
+      >
+        USD
+      </td>
+      <td
+        class="MuiTableCell-root MuiTableCell-body"
+      >
+        1.50
+      </td>
+    </tr>
+    <tr
+      class="MuiTableRow-root"
+    >
+      <td
+        class="MuiTableCell-root MuiTableCell-body"
+      >
+        EUR
+      </td>
+      <td
+        class="MuiTableCell-root MuiTableCell-body"
+      >
+        2.00
+      </td>
+    </tr>
+    <tr
+      class="MuiTableRow-root"
+    >
+      <td
+        class="MuiTableCell-root MuiTableCell-body"
+      >
+        AUD
+      </td>
+      <td
+        class="MuiTableCell-root MuiTableCell-body"
+      >
+        1.10
+      </td>
+    </tr>
+    <tr
+      class="MuiTableRow-root"
+    >
+      <td
+        class="MuiTableCell-root MuiTableCell-body"
+      >
+        JPY
+      </td>
+      <td
+        class="MuiTableCell-root MuiTableCell-body"
+      >
+        0.03
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

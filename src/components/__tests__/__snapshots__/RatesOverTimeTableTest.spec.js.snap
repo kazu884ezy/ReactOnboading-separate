@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RatesOverTimeTable test render correctly 1`] = `
+<table
+  class="MuiTable-root makeStyles-table-1"
+>
+  <thead
+    class="MuiTableHead-root"
+  >
+    <tr
+      class="MuiTableRow-root MuiTableRow-head"
+    >
+      <th
+        class="MuiTableCell-root MuiTableCell-head"
+        scope="col"
+      >
+        Date
+      </th>
+      <th
+        class="MuiTableCell-root MuiTableCell-head"
+        scope="col"
+      >
+        Value
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    class="MuiTableBody-root"
+  >
+    <tr
+      class="MuiTableRow-root"
+    >
+      <td
+        class="MuiTableCell-root MuiTableCell-body"
+      >
+        2020-10-30
+      </td>
+      <td
+        class="MuiTableCell-root MuiTableCell-body"
+      >
+        AUD
+         
+        1.10
+      </td>
+    </tr>
+    <tr
+      class="MuiTableRow-root"
+    >
+      <td
+        class="MuiTableCell-root MuiTableCell-body"
+      >
+        2020-10-31
+      </td>
+      <td
+        class="MuiTableCell-root MuiTableCell-body"
+      >
+        AUD
+         
+        1.12
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
