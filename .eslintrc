@@ -1,0 +1,108 @@
+{
+  "extends": [
+    "airbnb",
+    "airbnb-typescript"
+  ],
+  "plugins": [
+    "react-hooks"
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "project": "./tsconfig.json"
+  },
+  "overrides": [
+    {
+      "files": "./__tests__/**/*",
+      "parserOptions": {
+        "project": "./__tests__/tsconfig.json"
+      },
+      "settings": {
+        "import/resolver": {
+          "node": {
+            "extensions": [
+              ".js",
+              ".jsx",
+              ".ts",
+              ".tsx"
+            ],
+            "moduleDirectory": [
+              "node_modules",
+              "./",
+              "tests/"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  },
+  "ignorePatterns": ["**/serviceWorker.ts", "**/*.d.ts"],
+  "rules": {
+    "import/prefer-default-export": "off",
+    "complexity": [
+      "warn",
+      5
+    ],
+    "jsx-a11y/label-has-associated-control": [
+      "error",
+      {
+        "required": {
+          "some": [
+            "nesting",
+            "id"
+          ]
+        }
+      }
+    ],
+    "jsx-a11y/label-has-for": [
+      "error",
+      {
+        "required": {
+          "some": [
+            "nesting",
+            "id"
+          ]
+        }
+      }
+    ],
+    "max-len": "warn",
+    "max-nested-callbacks": [
+      "warn",
+      2
+    ],
+    "max-depth": [
+      "warn",
+      3
+    ],
+    "max-params": [
+      "warn",
+      2
+    ],
+    "no-restricted-syntax": "off",
+    "no-underscore-dangle": "off",
+    "no-console": [
+      "warn",
+      {
+        "allow": [
+          "warn",
+          "error"
+        ]
+      }
+    ],
+    "react/jsx-filename-extension": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}
